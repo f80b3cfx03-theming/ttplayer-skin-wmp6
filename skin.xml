@@ -1,0 +1,92 @@
+<skin version="2" name="Windows Media Player 6" author="" url="" email="" transparent_color="#66ccff">
+
+<player_window image="window_player.bmp">
+	<icon position="6,5,21,20" icon="icon.ico"/>
+	<minimize position="238,6,254,20" image="title_minimize.bmp"/>
+	<minimode position="254,6,270,20" image="title_minimode.bmp"/>
+	<exit position="272,6,288,20" image="title_exit.bmp"/>
+
+	<browser position="20,44,107,66" image="bar1_browser.bmp"/>
+	<playlist position="107,44,166,66" image="bar1_playlist.bmp"/>
+	<equalizer position="166,44,236,66" image="bar1_equalizer.bmp"/>
+	<lyric position="236,44,290,66" image="bar1_lyric.bmp"/>
+
+	<!-- <visual position="74,103,219,214"/> -->
+	<visual position="6,68,289,252"/>
+
+	<play position="6,276,26,296" image="bar2_pause.bmp"/>
+	<pause position="6,276,26,296" image="bar2_play.bmp"/>
+	<stop position="28,276,49,297" image="bar2_stop.bmp"/>
+	<open position="50,276,71,297" image="bar2_open.bmp"/>
+
+	<prev position="82,276,103,297" image="bar2_prev.bmp"/>
+	<next position="104,276,125,297" image="bar2_next.bmp"/>
+
+	<mute position="216,276,240,297" image="bar2_mute.bmp"/>
+	<volume position="237,276,288,297" vertical="false" thumb_image="bar2_volume_slide.bmp"/>
+
+	<progress position="5,257,288,272" bar_image="progress_bar.bmp" thumb_image="progress_slide.bmp"/>
+
+	<info position="8,305,286,319" color="#ffffff" font="Microsoft Sans Serif" font_size="14"/>
+
+	<status position="33,380,208,394" color="#ffffff" font="Microsoft Sans Serif" font_size="14" align="left"/>
+	<led position="208,379,239,394" image="number.bmp" align="right"/>
+	<stereo position="245,380,282,394" color="#ffffff" font="Microsoft Sans Serif" font_size="14" align="right"/>
+</player_window>
+
+<lyric_window position="0,322,293,402" resize_rect="6,2,287,51" image="window_lyrics.bmp">
+	<lyric position="5,1,289,53"/>
+</lyric_window>
+
+<equalizer_window position="166,66,398,210" image="window_equalizer.bmp" eq_interval="3">
+	<enabled position="20,30,33,43" image="checkbox.bmp"/>
+	<profile position="166,40,222,60" image="equalizer_preset.bmp"/>
+	<reset position="173,13,215,34" image="equalizer_reset.bmp"/>
+	<balance position="91,16,158,33" thumb_image="equalizer_thumb_v.bmp"/>
+	<surround position="91,40,158,57" thumb_image="equalizer_thumb_v.bmp"/>
+	<preamp position="8,67,25,134" thumb_image="equalizer_thumb_h.bmp"/>
+	<eqfactor position="28,67,45,134" thumb_image="equalizer_thumb_h.bmp"/>
+</equalizer_window>
+
+<playlist_window position="0,0,294,253" resize_rect="280,67,281,68" image="window_playlist.bmp">
+	<toolbar position="4,23,263,41" image="bar3_cold.bmp" hot_image="bar3_hot.bmp"/>
+	<scrollbar buttons_image="scrollbar_button.bmp" thumb_image="scrollbar_thumb.bmp" bar_image="scrollbar_bar.bmp" thumb_resize_center="4"/>
+	<playlist position="6,68,289,99" selected_image="playlist_hot.bmp" splitter_bar_image="playlist_splitter.bmp" splitter_arrow_image="playlist_splitter_arrow.bmp"/>
+</playlist_window>
+
+<mini_window image="mini\player.bmp">
+	<icon position="6,5,21,20" image="mini\icon.ico"/>
+		<!--the color of the 1 in mini\icon.ico is lighter than in icon.ico-->
+	<minimize position="344,6,360,20" image="title_minimize.bmp"/>
+	<minimode position="360,6,376,20" image="title_minimode.bmp"/>
+	<exit position="378,6,394,20" image="title_exit.bmp"/>
+
+	<progress position="15,46,349,69" thumb_image="mini\slide.bmp"/>
+
+	<play position="6,92,28,113" image="mini\play.bmp"/>
+	<pause position="6,92,28,113" image="mini\pause.bmp"/>
+	<stop position="29,92,52,114" image="mini\stop.bmp"/>
+	<open position="52,92,75,114" image="mini\open.bmp"/>
+
+	<prev position="83,92,106,114" image="mini\prev.bmp"/>
+	<next position="106,92,129,114" image="mini\next.bmp"/>
+
+	<lyric position="137,92,160,114" image="mini\lyric.bmp"/>
+	<mute position="160,92,183,114" image="mini\mute.bmp"/>
+
+	<visual position="189,95,232,112"/>
+
+	<info position="246,96,391,111" color="#000000" font="Microsoft Sans Serif" font_size="14"/>
+</mini_window>
+
+<browser_window position="294,0" image="browser\window.bmp">
+		<!--screw x2 and y2 lol whatever-->
+	<browser position="4,60,570,379"/>
+	<close position="552,6,567,19" image="title_exit.bmp"/>
+	<backward position="15,25,59,55" image="browser\backward.bmp"/>
+	<forward position="59,25,103,55" image="browser\forward.bmp"/>
+	<refresh position="103,25,134,55" image="browser\refresh.bmp"/>
+	<startup position="9,384,22,397" ckbox_image="checkbox.bmp"/>
+</browser_window>
+
+</skin>

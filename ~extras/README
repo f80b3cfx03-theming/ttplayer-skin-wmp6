@@ -1,0 +1,12 @@
+~browser_window.bmp	browser\window.bmp的代替品
+~minimode_lyric.bmp	mini\lyric.bmp的代替品
+~title_pin.bmp		沒有用
+66ccff.bmp		#66CCFF
+win.ttlr_cfg		歌詞設定（普通模式）
+win.ttvi_cfg		視覺效果設定（普通模式）
+winmini.ttlr_cfg	歌詞設定（迷你模式）
+winmini.ttvi_cfg	視覺效果設定（迷你模式）
+
+C:\WINDOWS\system32\mplay32.exe
+C:\Program Files\Windows Media Player\mplayer2.exe
+（XP）
